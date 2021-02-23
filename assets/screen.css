@@ -3,5 +3,35 @@
 html {
   font-family: 'Literata', Georgia, 'Times New Roman', Times, Roman, serif;  font-size: 1.111111em; /*20 /18 = 1*/
   background: #3366cc;
+  line-height: 1.55555em; /*28 /18 =1.55555em */
+  padding: 1.55555em; /*28 /18 =1.55555em */
   font-size: 1.125em;
+}
+
+h1 {
+  font-size: 200%;
+  font-weight: bold;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  text-align: center;
+}
+
+@media screen and (min-width: 40em) {
+  #wrap {
+    display: inline-block;
+    justify-content: center;
+  }
+  h1 {
+    font-size: 200%;
+  }
+}
+
+@media screen and (min-width: 83.3em) {
+  #wrap {
+    display: inline-block;
+    justify-content: center;
+  }
+  h1 {
+    font-size: 300%;
+  }
 }
