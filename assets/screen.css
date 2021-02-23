@@ -16,6 +16,19 @@ h1 {
   text-align: center;
 }
 
+@media screen and (min-width: 12.6em) {
+  #wrap {
+    display: inline-block;
+    justify-content: center;
+  }
+  h1 {
+    font-size: 100%;
+  }
+  html {
+    font-size: 50%;
+  }
+}
+
 @media screen and (min-width: 40em) {
   #wrap {
     display: inline-block;
