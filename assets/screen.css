@@ -9,11 +9,10 @@ html {
 }
 
 h1 {
-  font-size: 200%;
-  font-weight: bold;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
+  font-size: 1.666667em; /*30 /18 =1.666667em */
+  padding-bottom: 1.333333em; /*24 /18 =1.333333 */
   text-align: center;
+  font-weight: bold;
 }
 
 @media screen and (min-width: 55.555556em) {
