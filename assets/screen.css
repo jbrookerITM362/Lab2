@@ -15,6 +15,10 @@ h1 {
   font-weight: bold;
 }
 
+form {
+  text-align:center;
+}
+
 @media screen and (min-width: 55.555556em) {
   #wrap {
     display: inline-block;
